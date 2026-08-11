@@ -1,0 +1,13 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Odontólogo especialista">
+  <rect width="800" height="1000" rx="36" fill="#f2f7f8"/>
+  <circle cx="400" cy="282" r="126" fill="#d8e8eb"/>
+  <circle cx="400" cy="246" r="76" fill="#c9a78b"/>
+  <path d="M292 246C304 174 358 132 421 142C478 151 514 198 506 260C468 232 408 225 292 246Z" fill="#2e6977"/>
+  <path d="M250 890C270 626 313 464 400 464C487 464 530 626 550 890H250Z" fill="#ffffff" stroke="#dbe7ea" stroke-width="4"/>
+  <path d="M324 488L400 650L476 488" stroke="#428a97" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="304" y="640" width="192" height="116" rx="22" fill="#e6f0f2"/>
+  <path d="M348 696H452" stroke="#2e6977" stroke-width="14" stroke-linecap="round"/>
+  <path d="M370 724H430" stroke="#428a97" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="302" cy="326" r="28" fill="#ffffff"/>
+  <circle cx="498" cy="326" r="28" fill="#ffffff"/>
+</svg>
