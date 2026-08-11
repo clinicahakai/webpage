@@ -4,6 +4,9 @@
   --secondary: #f3faf9;
   --accent: #d8b66b;
   --gold: #f6d79a;
+  --gold-button: linear-gradient(135deg, #f8dc98 0%, #d7a84f 45%, #f4cf83 100%);
+  --gold-button-hover: linear-gradient(135deg, #ffe8ad 0%, #e5b95e 48%, #f7d994 100%);
+  --gold-button-border: #e2b45f;
   --teal: #86cfc5;
   --text-main: #142033;
   --text-muted: #52636d;
@@ -39,10 +42,10 @@ img { max-width: 100%; display: block; }
 .main-nav a:hover, .main-nav a.active { color: var(--gold); }
 .main-nav a.active { font-weight: 700; border-bottom: 2px solid var(--gold); padding-bottom: 4px; }
 .btn { display: inline-block; border: 1px solid transparent; padding: 12px 22px; border-radius: var(--radius); text-decoration: none; font-size: .9rem; font-weight: 600; letter-spacing: .02em; cursor: pointer; transition: var(--transition); }
-.btn-primary { background: var(--gold); color: var(--primary); border-color: var(--gold); }
-.btn-primary:hover { background: var(--primary); border-color: var(--primary); color: var(--white); transform: translateY(-2px); box-shadow: 0 4px 12px rgba(5,27,52,.22); }
-.site-header .btn-primary { background: var(--gold); color: var(--primary); border-color: var(--gold); }
-.site-header .btn-primary:hover { background: var(--white); border-color: var(--white); color: var(--primary); box-shadow: 0 6px 18px rgba(246,215,154,.25); }
+.btn-primary { background: var(--gold-button); color: var(--primary); border-color: var(--gold-button-border); box-shadow: 0 6px 18px rgba(215,168,79,.22); }
+.btn-primary:hover { background: var(--gold-button-hover); border-color: #f4cf83; color: var(--primary); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(215,168,79,.32); }
+.site-header .btn-primary { background: var(--gold-button); color: var(--primary); border-color: var(--gold-button-border); }
+.site-header .btn-primary:hover { background: var(--gold-button-hover); border-color: #f4cf83; color: var(--primary); box-shadow: 0 8px 24px rgba(215,168,79,.32); }
 .btn-ghost { border-color: var(--primary); color: var(--primary); background: transparent; }
 .btn-ghost:hover { background: var(--secondary); transform: translateY(-2px); }
 .btn-nav { padding: 9px 18px; font-size: .85rem; }
