@@ -124,6 +124,8 @@ body.route-inicio .site-footer { scroll-snap-align: end; }
 .about-img { width: 100%; height: auto; border-radius: var(--radius); box-shadow: 0 12px 34px rgba(10,25,47,.1); border: 1px solid var(--line); }
 
 .faq-list { max-width: 800px; margin: 0 auto; border-top: 1px solid var(--line); }
+.faq-section .section-sub, .faq-section .faq-list, .faq-section .faq-answer p { max-width: none; }
+.faq-section .section-sub, .faq-section .faq-list { margin-left: 0; margin-right: 0; }
 .faq-item { border-bottom: 1px solid var(--line); }
 .faq-question { width: 100%; text-align: left; background: none; border: none; cursor: pointer; padding: 22px 8px; font-family: var(--sans); font-size: 1.05rem; font-weight: 600; color: var(--primary); display: flex; align-items: center; justify-content: space-between; transition: var(--transition); }
 .faq-question:hover { color: var(--gold); }
