@@ -32,6 +32,8 @@
     var hash = window.location.hash || '#/';
     if (!routes[hash]) hash = '#/';
 
+    document.documentElement.classList.toggle('route-inicio', hash === '#/');
+
     document.querySelectorAll('.spa-view').forEach(function (view) {
       var active = view.id === routes[hash];
       view.classList.toggle('active', active);

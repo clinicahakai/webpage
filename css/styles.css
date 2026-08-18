@@ -19,7 +19,8 @@
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-snap-type: y mandatory; scroll-padding-top: 84px; }
+html { scroll-behavior: smooth; scroll-padding-top: 84px; }
+html.route-inicio { scroll-snap-type: y mandatory; }
 body {
   margin: 0;
   background: var(--white);
@@ -80,7 +81,9 @@ img { max-width: 100%; display: block; }
 .strip-item strong { font-family: var(--serif); font-weight: 400; font-size: 1.6rem; color: var(--teal); }
 .strip-item span { font-size: .85rem; color: rgba(255,255,255,.78); }
 
-.section { padding: 90px 0; scroll-snap-align: start; }
+.section { padding: 90px 0; }
+#view-inicio > .section { scroll-snap-align: start; }
+html.route-inicio .site-footer { scroll-snap-align: end; }
 .section-alt { background: var(--secondary); }
 .section-header { margin-bottom: 48px; }
 .section-header.text-center, .text-center { text-align: center; }
